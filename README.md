@@ -181,14 +181,42 @@ There are several augmentation strategies to make algorithm more robust.
 
 Each strategies are like below.
 
-<img src="https://raw.githubusercontent.com/silenc3502/PyKerasBehavioralCloning/master/pic_data/add_shadow.jpg"/>
-<img src="https://raw.githubusercontent.com/silenc3502/PyKerasBehavioralCloning/master/pic_data/aug_BGR2YUV.jpg"/>
+<table>
+<tr>
+<td>
 <img src="https://raw.githubusercontent.com/silenc3502/PyKerasBehavioralCloning/master/pic_data/bright.jpg"/>
-<img src="https://raw.githubusercontent.com/silenc3502/PyKerasBehavioralCloning/master/pic_data/flip_img.jpg"/>
+</td>
+<td> Random Brightness </td>
+<td>
 <img src="https://raw.githubusercontent.com/silenc3502/PyKerasBehavioralCloning/master/pic_data/horizon_shift.jpg"/>
+</td>
+<td> Horizon Shift </td>
+</tr>
+<tr>
+<td>
+<img src="https://raw.githubusercontent.com/silenc3502/PyKerasBehavioralCloning/master/pic_data/add_shadow.jpg"/>
+</td>
+<td> Add Random Shadow </td>
+<td>
+<img src="https://raw.githubusercontent.com/silenc3502/PyKerasBehavioralCloning/master/pic_data/aug_BGR2YUV.jpg"/>
+</td>
+<td> BGR2YUV </td>
+</tr>
+<tr>
+<td>
 <img src="https://raw.githubusercontent.com/silenc3502/PyKerasBehavioralCloning/master/pic_data/resize.jpg"/>
+</td>
+<td> Resize </td>
+<td>
+<img src="https://raw.githubusercontent.com/silenc3502/PyKerasBehavioralCloning/master/pic_data/flip_img.jpg"/>
+</td>
+<td> Flip </td>
+</tr>
+</table>
 
 Final Distribution of data looks like below.
+
+![alt_text][hist]
 
 ---
 
