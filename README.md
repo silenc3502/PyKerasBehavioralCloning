@@ -14,17 +14,8 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[orig]: ./pic_data/center_2017_10_27_16_00_44_798.jpg "Center"
-[left]: ./pic_data/left_2017_10_27_16_00_44_798.jpg "Left"
-[right]: ./pic_data/right_2017_10_27_16_00_44_798.jpg "Right"
-[shadow]: ./pic_data/add_shadow.jpg "Add Shadow"
-[BGR2YUV]: ./pic_data/aug_BGR2YUV.jpg "BGR2YUV"
-[bright]: ./pic_data/bright.jpg "Brightness"
-[crop]: ./pic_data/crop.jpg "Crop"
-[flip]: ./pic_data/flip_img.jpg "Flip"
-[horizon_shift]: ./pic_data/horizon_shift.jpg "Horizon Shift"
-[resize]: ./pic_data/resize.jpg "Resize"
-[hist]: ./pic_data/Histogram.jpg "Hist"
+[run1]: ./pic_data/run1.gif "Track 1"
+[run2]: ./pic_data/run2.gif "Track 2"
 
 ### Core Files
 ---
@@ -226,13 +217,15 @@ However it has outlier because of I drive it with full steering and full throttl
 ### Simulation
 #### Track 1
 ---
-<img src="https://raw.githubusercontent.com/silenc3502/PyKerasBehavioralCloning/master/pic_data/run1.gif?raw=true"/>
+
+![alt_text][run1]
 
 ---
 
 #### Track 2
 ---
-<img src="https://raw.githubusercontent.com/silenc3502/PyKerasBehavioralCloning/master/pic_data/run2.gif?raw=true"/>
+
+![alt_text][run2]
 
 ---
 
