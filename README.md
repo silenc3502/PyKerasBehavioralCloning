@@ -216,20 +216,29 @@ Each strategies are like below.
 
 Final Distribution of data looks like below.
 
-![alt_text][hist]
+<img src="https://raw.githubusercontent.com/silenc3502/PyKerasBehavioralCloning/master/pic_data/Histogram.jpg"/>
+
+It looks like Gaussian Distribution that is good!
+However it has outlier because of I drive it with full steering and full throttle very many times at training.
 
 ---
 
 ### Simulation
 #### Track 1
 ---
+<img src="https://raw.githubusercontent.com/silenc3502/PyKerasBehavioralCloning/master/pic_data/run1.gif"/>
 
 ---
 
 #### Track 2
 ---
+<img src="https://raw.githubusercontent.com/silenc3502/PyKerasBehavioralCloning/master/pic_data/run2.gif"/>
 
 ---
+
+### Conclusions
+
+
 
 ### Future Works
 ---
