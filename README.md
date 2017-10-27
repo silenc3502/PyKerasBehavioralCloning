@@ -115,6 +115,11 @@ Add shadow image to make train data more robust.
 #### model.py
 ---
 It has ELU(Exponential Linear Unit) Model Architecture.
+Below Image represents Nvidia's CNN Model Architecture and I remove Dense(1164) part.
+Because of my computer get so big latency.
+
+<img src="https://raw.githubusercontent.com/silenc3502/PyKerasBehavioralCloning/master/pic_data/nvidia_cnn_model.png"/>
+
 First Normalization with input_shape=(66, 200, 300) and doing CNN.
 CNN has(24, (5, 5)), (36, (5, 5)), (48, 5, 5)), (64, (3, 3)), (64, (3, 3)).
 After creating CNN than have to do make Fully-connected layer.
