@@ -226,13 +226,13 @@ However it has outlier because of I drive it with full steering and full throttl
 ### Simulation
 #### Track 1
 ---
-<img src="https://raw.githubusercontent.com/silenc3502/PyKerasBehavioralCloning/master/pic_data/run1.gif"/>
+<img src="https://raw.githubusercontent.com/silenc3502/PyKerasBehavioralCloning/master/pic_data/run1.gif?raw=true"/>
 
 ---
 
 #### Track 2
 ---
-<img src="https://raw.githubusercontent.com/silenc3502/PyKerasBehavioralCloning/master/pic_data/run2.gif"/>
+<img src="https://raw.githubusercontent.com/silenc3502/PyKerasBehavioralCloning/master/pic_data/run2.gif?raw=true"/>
 
 ---
 
