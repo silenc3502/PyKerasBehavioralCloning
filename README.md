@@ -141,7 +141,7 @@ It's not perfect but also good.
 
 <table>
 <tr>
-<td> ![alt_text][orig] </td>
+<td><img src=![alt_text][orig]/></td>
 <td> Original Image </td>
 </tr>
 <tr>
