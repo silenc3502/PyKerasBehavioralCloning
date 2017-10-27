@@ -25,7 +25,7 @@ The goals / steps of this project are the following:
 ---
 
 ### How to execute it ?
-## Track 1
+#### Track 1
 ---
 1. python make_train.py
 
@@ -39,7 +39,7 @@ Now you can see the autonomous driving for track 1
 
 ---
 
-## Track 2
+#### Track 2
 ---
 1. python preprocess.py
 
