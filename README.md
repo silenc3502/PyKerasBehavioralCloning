@@ -12,6 +12,20 @@ The goals / steps of this project are the following:
 * Summarize the results with a written report
 ---
 
+[//]: # (Image References)
+
+[orig]: ./pic_data/center_2017_10_27_16_00_44_798.jpg "Center"
+[left]: ./pic_data/left_2017_10_27_16_00_44_798.jpg "Left"
+[right]: ./pic_data/right_2017_10_27_16_00_44_798.jpg "Right"
+[shadow]: ./pic_data/add_shadow.jpg "Add Shadow"
+[BGR2YUV]: ./pic_data/aug_BGR2YUV.jpg "BGR2YUV"
+[bright]: ./pic_data/bright.jpg "Brightness"
+[crop]: ./pic_data/crop.jpg "Crop"
+[flip]: ./pic_data/flip_img.jpg "Flip"
+[horizon_shift]: ./pic_data/horizon_shift.jpg "Horizon Shift"
+[resize]: ./pic_data/resize.jpg "Resize"
+[hist]: ./pic_data/Histogram.jpg "Hist"
+
 ### Core Files
 ---
 * temp.py: Histogram Analysis for Steering Angle
@@ -124,6 +138,9 @@ It's not perfect but also good.
 * drive 1 lap in the middle of the second lane clockwise
 * drive 1 lap in the middle of the second lane counter-clockwise
 * Add some driving data to solve problem(fall, curve lane fail, don't go straight)
+
+![alt_text][orig]
+![alt_text][crop]
 
 Moreover, images coming from all 3 cameras was used with a correction of 0.2.
 
