@@ -20,7 +20,7 @@ The goals / steps of this project are the following:
 ### Core Files
 ---
 * temp.py: Histogram Analysis for Steering Angle
-* preprocess.py: Preprocessing and Augmenting before Training for track 2
+* preprocess.py: Preprocessing and Augmenting before Training for track 2(Explain it below section)
 * model.py: Implementation of the Model Architecture(NvidiaCNN) for track 2
 * make_train.py: Make Model for track 1
 * drive.py: for track 1(no modify)

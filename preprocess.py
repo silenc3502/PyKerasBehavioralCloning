@@ -10,7 +10,7 @@ correction = 0.2
 correction_multipliers = [0, 1.0, -1.0]
 
 # methods to be used for augmentation
-def add_shadow(img):
+def add_random_shadow(img):
     new_img = cv2.cvtColor(img, cv2.COLOR_BGR2YUV)
     h,w = new_img.shape[0:2]
     mid = np.random.randint(0,w)
@@ -41,7 +41,7 @@ def rotate_img(img, s_angle=-10, end_angle=10):
     crop = int(abs(1.1 * angle)) + 1
     return scipy.misc.imresize(tmp[crop:-crop, crop:-crop,], img.shape)
 
-def brightness(img, value=0):
+def random_brightness(img, value=0):
     hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
     hsv = hsv.astype('int32')
     hsv[:,:,2] += value
@@ -50,9 +50,9 @@ def brightness(img, value=0):
     return cv2.cvtColor(hsv, cv2.COLOR_HSV2BGR)
 
 def augment_img(img):
-    aug_img = brightness(img, random.randint(-20, 20))
+    aug_img = random_brightness(img, random.randint(-20, 20))
     aug_img = shift_horizon(aug_img)
-    aug_img = add_shadow(aug_img)
+    aug_img = add_random_shadow(aug_img)
     return aug_img
 
 def generate_training_data():#use_generator=False, batch_size=128):
