@@ -152,6 +152,21 @@ It's not perfect but also good.
 
 Moreover, images coming from all 3 cameras was used with a correction of 0.2.
 
+<table>
+<tr>
+<td><img src="https://raw.githubusercontent.com/silenc3502/PyKerasBehavioralCloning/master/pic_data/left_2017_10_27_16_00_44_798.jpg"/></td>
+<td> Left Camera Image </td>
+</tr>
+<tr>
+<td><img src="https://raw.githubusercontent.com/silenc3502/PyKerasBehavioralCloning/master/pic_data/center_2017_10_27_16_00_44_798.jpg"/></td>
+<td> Center Camera Image </td>
+</tr>
+<tr>
+<td><img src="https://raw.githubusercontent.com/silenc3502/PyKerasBehavioralCloning/master/pic_data/right_2017_10_27_16_00_44_798.jpg"/></td>
+<td> Right Camera Image </td>
+</tr>
+</table>
+
 ---
 
 ### Data Augmentation
