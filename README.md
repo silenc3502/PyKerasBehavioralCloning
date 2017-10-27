@@ -14,6 +14,7 @@ The goals / steps of this project are the following:
 
 ### Core Files
 ---
+* temp.py: Histogram Analysis for Steering Angle
 * preprocess.py: Preprocessing and Augmenting before Training for track 2
 * model.py: Implementation of the Model Architecture(NvidiaCNN) for track 2
 * make_train.py: Make Model for track 1
@@ -125,9 +126,11 @@ It's not perfect but also good.
 * Add some driving data to solve problem(fall, curve lane fail, don't go straight)
 
 Moreover, images coming from all 3 cameras was used with a correction of 0.2.
+
 ---
 
 ### Data Augmentation
+---
 Already explain it above for what the code do.
 There are several augmentation strategies to make algorithm more robust.
 
@@ -136,13 +139,31 @@ There are several augmentation strategies to make algorithm more robust.
 * Add Random Shadow
 * Horizon Shift
 
-#### Why create a video
+Let's check Distribution of data.
 
-1. It's been noted the simulator might perform differently based on the hardware. So if your model drives succesfully on your machine it might not on another machine (your reviewer). Saving a video is a solid backup in case this happens.
-2. You could slightly alter the code in `drive.py` and/or `video.py` to create a video of what your model sees after the image is processed (may be helpful for debugging).
+Final Distribution of data looks like below.
 
-## How to write a README
-A well written README file can enhance your project and portfolio.  Develop your abilities to create professional README files by completing [this free course](https://www.udacity.com/course/writing-readmes--ud777).
+---
+
+### Simulation
+#### Track 1
+---
+
+---
+
+#### Track 2
+---
+
+---
+
+### Future Works
+---
+I will try it with My TI AM5728 with OpenCL(Based on C++).
+And that case I'll try to use Full Nvidia CNN.
+AM5728 has Imagination SGX544.
+So, maybe it can do it with C6000 DSP.
+
+---
 
 ### References
 
