@@ -139,8 +139,16 @@ It's not perfect but also good.
 * drive 1 lap in the middle of the second lane counter-clockwise
 * Add some driving data to solve problem(fall, curve lane fail, don't go straight)
 
-![alt_text][orig]
-![alt_text][crop]
+<table>
+<tr>
+<td> ![alt_text][orig] </td>
+<td> Original Image </td>
+</tr>
+<tr>
+<td> ![alt_text][crop] </td>
+<td> Cropping ROI after Preprocessing </td>
+</tr>
+</table>
 
 Moreover, images coming from all 3 cameras was used with a correction of 0.2.
 
