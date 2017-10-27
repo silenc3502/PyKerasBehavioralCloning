@@ -179,7 +179,10 @@ There are several augmentation strategies to make algorithm more robust.
 * Add Random Shadow
 * Horizon Shift
 
-Let's check Distribution of data.
+Each strategies are like below.
+
+<img src="https://raw.githubusercontent.com/silenc3502/PyKerasBehavioralCloning/master/pic_data/add_shadow.jpg"/>
+<img src="https://raw.githubusercontent.com/silenc3502/PyKerasBehavioralCloning/master/pic_data/aug_BGR2YUV.jpg"/>
 
 Final Distribution of data looks like below.
 
