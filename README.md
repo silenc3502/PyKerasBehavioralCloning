@@ -230,15 +230,23 @@ However it has outlier because of I drive it with full steering and full throttl
 ---
 
 ### Conclusions
+---
+I can understand why people say big data.
+Because of when I do it with small data then I can get the terrible result(fall down, assult to wall or rock, don't go straight, and so on).
+When I take enough data for learning then the results are also good too.
 
+So I think most important thing in deep learning is big data.
+And this data must have good correction for avoid error.
+If I give many data that is bad correction then the results are also terrible.
 
+---
 
 ### Future Works
 ---
 I will try it with My TI AM5728 with OpenCL(Based on C++).
 And that case I'll try to use Full Nvidia CNN.
-AM5728 has Imagination SGX544.
-So, maybe it can do it with C6000 DSP.
+AM5728 has Imagination 2 x SGX544 Graphic Cards, 2 x ARM Cortex-A15, Video Codec, 2 x Cortex-M4, and 2 x C6678 DSPs.
+So, if I use above resource very well with OpenCL then maybe I can do this work with AM5728 too.
 
 ---
 
