@@ -141,11 +141,11 @@ It's not perfect but also good.
 
 <table>
 <tr>
-<td><img src="![alt_text][orig]"/></td>
+<td><img src="https://raw.githubusercontent.com/silenc3502/PyKerasBehavioralCloning/master/pic_data/center_2017_10_27_16_00_44_798.jpg"/></td>
 <td> Original Image </td>
 </tr>
 <tr>
-<td> ![alt_text][crop] </td>
+<td><img src="https://raw.githubusercontent.com/silenc3502/PyKerasBehavioralCloning/master/pic_data/crop.jpg"/></td>
 <td> Cropping ROI after Preprocessing </td>
 </tr>
 </table>
