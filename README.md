@@ -10,9 +10,10 @@ The goals / steps of this project are the following:
 * Design, train and validate a model that predicts a steering angle from image data
 * Use the model to drive the vehicle autonomously around the first track in the simulator. The vehicle should remain on the road for an entire loop around the track.
 * Summarize the results with a written report
+---
 
 ### Core Files
-
+---
 * preprocess.py: Preprocessing and Augmenting before Training for track 2
 * model.py: Implementation of the Model Architecture(NvidiaCNN) for track 2
 * make_train.py: Make Model for track 1
@@ -21,10 +22,40 @@ The goals / steps of this project are the following:
 * video.py: video recording
 * run1.mp4: driving track 1
 * run2.mp4: driving track 2
+---
 
-## Details About Files In This Directory
+### How to execute it ?
+## Track 1
+---
+1. python make_train.py
 
-### `drive.py`
+This command will be create trained data for steering.
+
+2. Run your Car Simulator with autonomous driving mode.
+
+3. python drive.py model.h5
+
+Now you can see the autonomous driving for track 1
+
+---
+
+## Track 2
+---
+1. python preprocess.py
+
+This command will be create x_train and y_train with training mode data of car simulator.
+
+2. python model.py
+
+This command will be make best_model.h5
+
+3. Run your Car Simulator with autonomous driving mode.
+
+4. python drive2.py best_model.h5
+
+Now you can see the autonomous driving that trained by Keras(track 2).
+
+---
 
 Usage of `drive.py` requires you have saved the trained model as an h5 file, i.e. `model.h5`. See the [Keras documentation](https://keras.io/getting-started/faq/#how-can-i-save-a-keras-model) for how to create this file using the following command:
 ```sh
@@ -91,3 +122,16 @@ Will run the video at 48 FPS. The default FPS is 60.
 ## How to write a README
 A well written README file can enhance your project and portfolio.  Develop your abilities to create professional README files by completing [this free course](https://www.udacity.com/course/writing-readmes--ud777).
 
+### References
+
+1. https://github.com/jaeoh2/self-driving-car-nd/tree/master/CarND-Behavioral-Cloning-P3
+2. https://github.com/joekidd/CarND-Behavioral-Cloning-P3
+3. https://github.com/Markusgami/CarND-Behavioral-Cloning
+4. https://arxiv.org/pdf/1604.07316v1.pdf
+5. https://github.com/SvenMuc/CarND-Behavioral-Cloning-P3
+6. https://github.com/jeremy-shannon/CarND-Behavioral-Cloning-Project
+7. https://datascienceschool.net/view-notebook/1d93b9dc6c624fbaa6af2ce9290e2479/
+8. https://keras.io/getting-started/sequential-model-guide/
+9. https://keras.io/models/model/
+10. https://stackoverflow.com/questions/42666046/loading-a-trained-keras-model-and-continue-training
+11. http://idiap.ch/~katharas/importance-sampling/training/
