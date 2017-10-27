@@ -64,9 +64,11 @@ There are 7 functions(include main):
 7 functions are add_shadow, shift_horizon, crop, brightness, augment_img, generate_training_data, and main.
 
 * main function:
+
 Call generate_training_data to create x train and y train.
 
 * Generate_training_data function:
+
 Read csv file to understand driving log.
 Driving log has center, left, right images and steering angle, throttle, break, speed data.
 Now, get image that already finished brightness, shift_horizon, and add_shadow rpcoess.
@@ -79,9 +81,11 @@ And calculating steering angle with upon information.
 Currently, success to make x train and y train.
 
 * augment_img function:
+
 Applying brightness, shift_horizon, and add_shadow to images.
 
 * brightness function:
+
 Convert BGR image to HSV and give some random brightness value to V factor.
 And make clipping data that range is 0 to 255.
 After convert HSV to BGR.
@@ -89,12 +93,16 @@ This is for get various brightness images.
 
 * crop function:
 
+Cropping Image for processing ROI.
 
 * shift_horizon function:
 
+This is the technique of my first project that is undistortion.
+make image to be straight to proper processing.
 
 * add_shadow function:
 
+Add shadow image to make train data more robust.
 
 ---
 
