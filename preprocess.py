@@ -57,7 +57,7 @@ def augment_img(img):
 
 def generate_training_data():#use_generator=False, batch_size=128):
     lines = []
-    with open("/home/sdr/self_drive/letsgo/driving_log.csv") as csvfile:
+    with open("/home/sdr/self_drive/drive_data/driving_log.csv") as csvfile:
         reader = csv.reader(csvfile)
         for line in reader:
             lines.append(line)
@@ -70,7 +70,7 @@ def generate_training_data():#use_generator=False, batch_size=128):
             # load the image
             source_path = line[i]
             filename = source_path.split('/')[-1]
-            path = "/home/sdr/self_drive/letsgo/IMG/"
+            path = "/home/sdr/self_drive/drive_data/IMG/"
             current_path = path + filename
             try:
                 org = cv2.imread(current_path)
