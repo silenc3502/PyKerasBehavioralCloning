@@ -57,6 +57,47 @@ Now you can see the autonomous driving that trained by Keras(track 2).
 
 ---
 
+### Details of Code
+#### preprocess.py
+---
+There are 7 functions(include main):
+7 functions are add_shadow, shift_horizon, crop, brightness, augment_img, generate_training_data, and main.
+
+* main function:
+Call generate_training_data to create x train and y train.
+
+* Generate_training_data function:
+Read csv file to understand driving log.
+Driving log has center, left, right images and steering angle, throttle, break, speed data.
+Now, get image that already finished brightness, shift_horizon, and add_shadow rpcoess.
+And crop image for our intereseting area with BGR to YUV converting images.
+Resize this images for processing.
+
+np.fliplr() change images phase(180 degree) and we add it too.
+Now get steering data from 3 lines(data which one has steering info with images).
+And calculating steering angle with upon information.
+Currently, success to make x train and y train.
+
+* augment_img function:
+Applying brightness, shift_horizon, and add_shadow to images.
+
+* brightness function:
+Convert BGR image to HSV and give some random brightness value to V factor.
+And make clipping data that range is 0 to 255.
+After convert HSV to BGR.
+This is for get various brightness images.
+
+* crop function:
+
+
+* shift_horizon function:
+
+
+* add_shadow function:
+
+
+---
+
 Usage of `drive.py` requires you have saved the trained model as an h5 file, i.e. `model.h5`. See the [Keras documentation](https://keras.io/getting-started/faq/#how-can-i-save-a-keras-model) for how to create this file using the following command:
 ```sh
 model.save(filepath)
