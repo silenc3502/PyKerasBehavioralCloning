@@ -183,6 +183,10 @@ Each strategies are like below.
 
 <img src="https://raw.githubusercontent.com/silenc3502/PyKerasBehavioralCloning/master/pic_data/add_shadow.jpg"/>
 <img src="https://raw.githubusercontent.com/silenc3502/PyKerasBehavioralCloning/master/pic_data/aug_BGR2YUV.jpg"/>
+<img src="https://raw.githubusercontent.com/silenc3502/PyKerasBehavioralCloning/master/pic_data/bright.jpg"/>
+<img src="https://raw.githubusercontent.com/silenc3502/PyKerasBehavioralCloning/master/pic_data/flip_img.jpg"/>
+<img src="https://raw.githubusercontent.com/silenc3502/PyKerasBehavioralCloning/master/pic_data/horizon_shift.jpg"/>
+<img src="https://raw.githubusercontent.com/silenc3502/PyKerasBehavioralCloning/master/pic_data/resize.jpg"/>
 
 Final Distribution of data looks like below.
 
